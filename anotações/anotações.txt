@@ -1,0 +1,50 @@
+Texto Explicativo do Projeto: Sistema de Cadastro e Acompanhamento de Obras
+O projeto consiste no desenvolvimento de um sistema web utilizando Python e Django para o cadastro, acompanhamento e gestão de obras de construção civil. O objetivo é fornecer uma ferramenta organizada para registrar os dados da obra, registrar o progresso diário e controlar o orçamento de forma eficiente, dividindo os custos por períodos e etapas da obra.
+
+Módulos do Sistema
+
+1. Cadastro de Obras
+Neste módulo, o usuário poderá cadastrar as informações principais de cada obra, como:
+
+Nome da obra
+
+Contratante (nome e informações de contato)
+
+Endereço completo
+
+Previsão de início e término da obra
+
+Uma descrição opcional da obra
+
+Esses dados servirão como base para vincular os registros do diário de obra e orçamento.
+
+2. Diário de Obra
+Permite o acompanhamento diário da execução da obra. Para cada data, o responsável poderá registrar:
+
+O clima do dia (ensolarado, chuvoso etc.)
+
+A lista de trabalhadores presentes
+
+As atividades realizadas e o progresso feito no dia
+
+Esse diário funcionará como um histórico da obra, útil para controle, fiscalização e comprovação do trabalho realizado.
+
+3. Orçamento e Custos
+Neste módulo, o usuário poderá registrar os materiais comprados e utilizados, associando os gastos ao diário da obra. O sistema permitirá:
+
+Visualizar gastos diários, semanais e mensais
+
+Acompanhar a evolução dos custos em relação ao planejamento
+
+Emitir relatórios financeiros da obra
+
+A divisão dos custos será organizada por data e também por categoria de trabalho (ex: fundação, alvenaria, acabamento).
+
+Funcionalidades Extras (Opcional)
+Cadastro de usuários com níveis de acesso
+
+Upload de fotos e documentos
+
+Dashboard com gráficos e resumos
+
+Exportação de relatórios em PDF ou Excel
